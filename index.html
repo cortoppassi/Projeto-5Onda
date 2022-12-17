@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript Code</title>
+</head>
+<body>
+    <header>
+        <img src="img/XDZT.gif" alt="" id="image">
+        <h1>javascript validator</h1>
+    </header>
+
+    <section>
+        <textarea onkeyup="elementByte()" id="areaTxt"></textarea>
+        <input type="submit" id="btn" onclick="search()">
+    </section>
+
+    <footer>
+        <ul>
+            <li id="passedOrFailed"></li>
+        </ul>
+        <ul>
+            <li id="totalOfLines"></li>
+        </ul>
+         <ul>
+            <li id="runTime"></li>
+        </ul>
+        <ul>
+            <li id="CodeInBytes"></li>   
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
